@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet');
+
+nav{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 135px;
+}
+
+header{
+            width: 1920px;
+        height: 125px;
+}
+
+.nav1{
+    background-color: #E30F25;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    white-space: pre-line;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    color: #ffffff;
+    cursor: default;
+}
+
+.nav{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+    list-style: none;
+    background-color: #ffffff;
+    white-space: pre-line;
+    text-align: center;
+    justify-content:flex-start;
+    width: 100%;
+    box-shadow: inset 0 0px 8px rgba(0, 0, 0, 0.3);
+    border: none; 
+    border-top: 1px solid #000000;
+    
+    .links{
+        position: relative;
+        color: #000000;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        bottom: 20px;
+    }
+
+    .deco{
+        position: relative;
+        color: #000000;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        bottom: 20px;
+        cursor: default;
+    }
+
+    .logo{
+        position: relative;
+        width: 125px;
+        height: 125px;
+        bottom: 20px;
+        margin-left: 10px;
+        margin-right: 20px;
+        max-width: 100%; 
+        box-sizing: content-box;
+    }
+    .custom-dropdown-toggle {
+        position: relative;
+        color: #000000;
+        font-family: 'Orelega One', sans-serif;
+        bottom: 20px;
+        font-size: 20px;
+        font-weight: 100;
+        .custom-dropdown-item{
+            font-family: 'Orelega One', sans-serif;
+        }        
+    }
+
+    .custom-dropdown-toggle::after {
+        display: none;
+    }
+    
+
+}
+
