@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet');
+#root{
+    max-width: 1769px;
+}
+.load{
+    position: relative;
+    top: 100px;
+}
+body{
+    max-width: 1920px;
+    font-family: 'Nunito', sans-serif;
+}
+img {
+    object-fit: cover;
+    width: 500px;
+}
+.cuadradito2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    box-sizing: content-box;
+    text-decoration: none;
+}
+
+.bodyprod{
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.cuadradito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #000000;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 69px;
+    padding: 10px;
+    box-sizing: content-box;
+    text-decoration: none;
+}
+
+.descri{
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 25;
+    white-space: pre-line;
+}
+.name{
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: none;
+}
+.precio{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 125;
+    white-space: pre-line;
+    color: #4B3F40;
+}
+.jose{
+    display: flex;
+    height: 100%;
+    position: relative;
+    top: 100px;
+    text-decoration: none;
+
+}
+
+
+.producto {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 250px;
+    font-weight: bolder;
+    font-family: 'Inter', Times, serif;
+    background-color: #ffffff;
+    border-radius: 10px;
+    gap: 50px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+.producto img {
+    object-fit: cover;
+    width: 250px;
+}
+.producto button {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #FFFFFF;
+    background-color: #3483FA;
+    border: none;
+    outline: none; };

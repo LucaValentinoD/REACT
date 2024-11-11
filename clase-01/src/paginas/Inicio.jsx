@@ -1,12 +1,11 @@
 import React from 'react'
 import Navbar from'../navbar.jsx'
 
-function inicio() {
+function Inicio() {
   return (
     <>
-    <Navbar/>
     </>
   )
 }
 
-export default inicio
+export default Inicio

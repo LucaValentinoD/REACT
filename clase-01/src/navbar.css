@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet');
 
 nav{
-    position: relative;
+    position: sticky;
+    top: 0;
     z-index: 1;
     display: flex;
     width: 100%;
@@ -11,9 +12,15 @@ nav{
 header{
             width: 1920px;
         height: 125px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        text-decoration: none;
 }
 
 .nav1{
+    position: sticky;
+    top: 0;
     background-color: #E30F25;
     width: 100%;
     height: 50px;
@@ -24,14 +31,18 @@ header{
     align-items: center;
     color: #ffffff;
     cursor: default;
+    position: sticky;
+    top: 0;
+    text-decoration: none;
 }
 
 .nav{
-    position: relative;
+    position: sticky;
+    top: 0;
     z-index: 1;
     display: flex;
     align-items: center;
-    gap: 95px;
+    gap: 69px;
     list-style: none;
     background-color: #ffffff;
     white-space: pre-line;
@@ -41,24 +52,26 @@ header{
     box-shadow: inset 0 0px 8px rgba(0, 0, 0, 0.3);
     border: none; 
     border-top: 1px solid #000000;
-    
+    text-decoration: none;
     .links{
         position: relative;
         color: #000000;
         font-family: 'Nunito', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 100;
         bottom: 20px;
+        text-decoration: none;
     }
 
     .deco{
         position: relative;
         color: #000000;
         font-family: 'Nunito', sans-serif;
-        font-size: 20px;
-        font-weight: 100;
+        font-size: 18px;
+        font-weight: 150;
         bottom: 20px;
         cursor: default;
+        list-style: none;
     }
 
     .logo{
@@ -71,13 +84,25 @@ header{
         max-width: 100%; 
         box-sizing: content-box;
     }
+
+    .logo2{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        left: 69px;
+        margin-left: 10px;
+        margin-right: 20px;
+        max-width: 100%; 
+        box-sizing: content-box;
+    }
     .custom-dropdown-toggle {
         position: relative;
         color: #000000;
         font-family: 'Orelega One', sans-serif;
         bottom: 20px;
-        font-size: 20px;
-        font-weight: 100;
+        font-size: 18px;
+        font-weight: 69px;
         .custom-dropdown-item{
             font-family: 'Orelega One', sans-serif;
         }        

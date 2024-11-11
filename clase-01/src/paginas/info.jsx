@@ -1,12 +1,11 @@
 import React from 'react'
 import Navbar from'../navbar.jsx'
-function info() {
+function Info() {
   return (
     <>
-      <Navbar/>
       <h1>4 A 3 PARA RIIVVVVEEEER GALLARDO ULTRA HISTORICOOOOOO</h1>
     </>
   )
 }
 
-export default info
+export default Info

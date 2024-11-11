@@ -1,12 +1,11 @@
 import React from 'react'
 import Navbar from'../navbar.jsx'
 
-function contacto() {
+function Contacto() {
   return (
     <>
-      <Navbar/>
     </>
   )
 }
 
-export default contacto
+export default Contacto
